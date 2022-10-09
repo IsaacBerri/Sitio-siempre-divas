@@ -223,7 +223,6 @@ body {
 }
 .btn-54 {
   -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
   background-color: #000;
   background-image: none;
   color: #fff;
@@ -299,4 +298,48 @@ body {
 }
 .btn-54:active .shadow {
   transform: translateY(-30%);
+}
+
+/* MediaQueris */
+
+@media (min-width: 300px) and (max-width: 599px) {
+  .banner img {
+    height: 200px;
+  }
+  .navbar {
+    height: 70px;
+  }
+  .navbar ul {
+    font-size: 17px;
+  }
+  .navbar ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .carrucelTamaño img {
+    height: 50%;
+  }
+  .seccion2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .seccion2 div {
+    width: 90%;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .seccion2 div p {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  .articulo1 {
+    margin-top: 80px;
+  }
+  .bannerProductos {
+    height: 50%;
+  }
+  .btn-54 {
+    padding: 1.7rem 4rem;
+  }
 }
